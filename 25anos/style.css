@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+}
+
+img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    transition: opacity 0.8s ease-in-out;
+}
+
+.mensagem {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    min-height: 60px;
+    transition: opacity 0.8s ease-in-out;
+}
+
+.botao {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+    color: #ff4d6d;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .mensagem {
+        font-size: 1.6rem;
+    }
+
+
+}
