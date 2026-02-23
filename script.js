@@ -1,4 +1,4 @@
-const totalFotos = 29;
+const totalFotos = 32;
 const imagens = [];
 
 imagens.forEach(src => {
